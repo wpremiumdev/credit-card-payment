@@ -1,0 +1,124 @@
+.pccg-payment-form-style-9{
+    background: #FAFAFA;
+    padding: 30px;    
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    border: 6px solid #305A72;
+}
+.pccg-payment-form-style-9 ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.pccg-payment-form-style-9 ul li{
+    margin-bottom: 0px;
+}
+.pccg-payment-form-style-9 ul li  .pccg-payment-field-style{
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    padding: 8px;
+    outline: none;
+    border: 1px solid #B0CFE0;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+
+}
+.pccg-payment-form-style-9 ul li .pccg-payment-class-select{
+    width: 100%;
+}
+.pccg-payment-form-style-9 ul li .pccg-add-remove-icon-paypal{
+    float: right;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.pccg-payment-form-style-9 ul li input[type="button"] {
+    -moz-box-shadow: inset 0px 1px 0px 0px #0091cd;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #0091cd;
+    box-shadow: inset 0px 1px 0px 0px #0091cd;
+    background-color: #0091cd;
+    border: 1px solid #0091cd;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    text-decoration: none;
+}
+.pccg-payment-background-color-table{
+    -moz-box-shadow: inset 0px 1px 0px 0px #0091cd;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #0091cd;
+    box-shadow: inset 0px 1px 0px 0px #0091cd;
+    background-color: #0091cd;
+    border: 1px solid #0091cd;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    text-decoration: none;    
+    width:100%;
+    height: 38px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+/*  Basic stucture
+=====================*/
+
+#pccg-payment-accordion ul{list-style:none;margin:0;padding:0;}
+.pccg-payment-accordion{display:none;}
+.pccg-payment-accordion:target{display:block;}
+#pccg-payment-accordion ul li a{text-decoration:none;display:block;padding:10px;}
+.pccg-payment-accordion{padding:4px;}
+
+/*  Colors 
+====================*/
+
+
+#pccg-payment-accordion ul li a{
+    background:#305A72;
+    border-bottom:1px solid #E0E0E0;
+    color:#FFF;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: inherit;
+    border-radius: 5px;
+}
+.pccg-payment-accordion{   
+
+    -webkit-box-shadow:0 4px 10px #BDBDBD;
+    -moz-box-shadow:0 4px 10px #BDBDBD;
+    box-shadow:0 4px 10px #BDBDBD;    
+}
+
+.pccg-payment-form-style-9 ul li #pccg_payment_add_new_custom_button{
+    -moz-box-shadow: inset 0px 1px 0px 0px #0091cd;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #0091cd;
+    box-shadow: inset 0px 1px 0px 0px #0091cd;
+    background-color: #0091cd;
+    border: 1px solid #0091cd;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    text-decoration: none;  
+    width: 35%;
+    float: right;
+    border-radius: 5px;
+
+}
+.pccg-payment-form-style-9 ul li #pccg_payment_remove_new_custom_button{
+    -moz-box-shadow: inset 0px 1px 0px 0px #c9302c;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #c9302c;
+    box-shadow: inset 0px 1px 0px 0px #c9302c;
+    background-color: #c9302c;
+    border: 1px solid #c9302c;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    text-decoration: none;  
+    width: 35%;
+    border-radius: 5px;
+    float: right;
+}
